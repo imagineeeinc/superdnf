@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [[ "$1" == "h" ]]; then
+  superdnf h
+elif [[ -z "$1" ]]; then
+  superdnf h
+else
+  command=$(superdnf $@)
+  $command
+fi

@@ -45,3 +45,9 @@ cd superdnf
 nimble build -d:release
 sudo ./install.sh
 ```
+
+Or find pre-compiled binaries in the release tab and drop them into the root of the cloned repo and run `sudo ./install.sh`.
+
+## License
+
+This project is under [MIT License](./LICENSE)

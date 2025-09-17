@@ -1,4 +1,6 @@
 #!/bin/sh
+# superdnf
+# Copyright (c) 2025 Imagineee
 
 if [[ "$1" == "h" ]]; then
   superdnf h
